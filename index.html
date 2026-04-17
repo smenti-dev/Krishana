@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amajala Krishna Chaitanya | Academic Portfolio</title>
+    <meta name="description" content="Academic portfolio of Amajala Krishna Chaitanya, Assistant Professor specializing in Structural Bioinformatics and Computational Cancer Genomics.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Prof. A.K. Chaitanya</a>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="mobile-menu-btn" id="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#experience">Experience & Certs</a></li>
+                <li><a href="#contact" class="btn btn-outline-primary btn-sm">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section-spacing">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title" id="hero-name">Loading...</h1>
+                    <p class="hero-subtitle" id="hero-title">Loading...</p>
+                    <p class="hero-bio" id="hero-bio">Loading...</p>
+                    <div class="hero-cta">
+                        <a href="#publications" class="btn btn-primary">View Publications</a>
+                        <a href="#contact" class="btn btn-outline-primary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <!-- Placeholder image, can be replaced later -->
+                    <div class="image-placeholder" id="hero-image-container">
+                        <img src="assets/hero-abstract.png" alt="Abstract Bioinformatics" id="hero-img" onerror="this.src='https://placehold.co/600x600/e6f0fa/004080?text=A.K.C'">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Banner -->
+        <div class="stats-banner">
+            <div class="container stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number" id="stat-pubs">41</span>
+                    <span class="stat-label">Publications</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="stat-cites">271</span>
+                    <span class="stat-label">Citations</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="stat-reads">7,359</span>
+                    <span class="stat-label">Reads</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">17+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <section id="about" class="about section-spacing bg-light">
+            <div class="container">
+                <h2 class="section-heading">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text" id="about-text">
+                        <p>Loading...</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <i class="fas fa-chalkboard-teacher stat-icon"></i>
+                            <h3>17+ Years</h3>
+                            <p>Teaching & Research Experience</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-university stat-icon"></i>
+                            <h3 id="about-dept">...</h3>
+                            <p id="about-uni">...</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-id-badge stat-icon"></i>
+                            <h3 style="font-size:0.95rem;">Academic IDs</h3>
+                            <p style="font-size:0.85rem;">Scopus: <strong id="scopus-id"></strong></p>
+                            <p style="font-size:0.85rem;">ResearcherID: <strong id="researcher-id"></strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Section -->
+        <section id="research" class="research section-spacing">
+            <div class="container">
+                <h2 class="section-heading">Research Areas</h2>
+                <div class="research-grid" id="research-grid">
+                    <!-- Rendered via JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="publications section-spacing bg-light">
+            <div class="container">
+                <h2 class="section-heading">Publications</h2>
+                
+                <div class="publication-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="top">Top Papers</button>
+                    <button class="filter-btn" data-filter="Journal Article">Journal Articles</button>
+                    <button class="filter-btn" data-filter="Conference Paper">Conferences</button>
+                    <button class="filter-btn" data-filter="Book Chapter">Book Chapters</button>
+                </div>
+
+                <div class="publications-list" id="publications-list">
+                    <!-- Rendered via JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Certifications -->
+        <section id="experience" class="experience section-spacing">
+            <div class="container">
+                <div class="exp-cert-grid">
+                    <div class="experience-col">
+                        <h2 class="section-heading">Teaching & Experience</h2>
+                        <div class="timeline" id="experience-timeline">
+                            <!-- Rendered via JS -->
+                        </div>
+                        
+                        <div class="activities-box mt-4">
+                            <h3 class="mb-2">Activities & Outreach</h3>
+                            <ul id="activities-list" class="styled-list">
+                                <!-- Rendered via JS -->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cert-col">
+                        <h2 class="section-heading">Certifications</h2>
+                        <div class="cert-grid" id="cert-grid">
+                            <!-- Rendered via JS -->
+                        </div>
+                        <!-- Peer Review -->
+                        <div class="peer-review-box mt-4">
+                            <h3 class="mb-2">Peer Review Activity</h3>
+                            <div class="peer-review-grid" id="peer-review-grid"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-spacing bg-primary text-white">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h2 class="section-heading text-white">Get in Touch</h2>
+                        <p class="mb-4">Interested in collaboration or have questions regarding my research? Feel free to reach out.</p>
+                        <div class="contact-details">
+                            <a href="#" id="contact-email-link" class="contact-link">
+                                <i class="fas fa-envelope"></i> <span id="contact-email">Loading...</span>
+                            </a>
+                            <a href="#" id="contact-linkedin-link" class="contact-link" target="_blank">
+                                <i class="fab fa-linkedin"></i> LinkedIn Profile
+                            </a>
+                            <a href="#" id="contact-rg-link" class="contact-link" target="_blank">
+                                <i class="fas fa-flask"></i> ResearchGate Profile
+                            </a>
+                            <a href="#" id="contact-uni-link" class="contact-link" target="_blank">
+                                <i class="fas fa-globe"></i> GITAM University
+                            </a>
+                        </div>
+                        <div class="mt-4">
+                            <a href="#" class="btn btn-outline-white">Download CV</a>
+                        </div>
+                    </div>
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contact-form" onsubmit="event.preventDefault(); alert('This is a demo. Email functionality requires a backend.');">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" required placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" required placeholder="Your Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" rows="4" required placeholder="Your Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-white w-100">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; <span id="current-year"></span> Prof. Amajala Krishna Chaitanya. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
