@@ -262,64 +262,57 @@
         <section id="contact" class="contact section-spacing bg-primary text-white">
             <div class="container">
                 <div class="contact-wrapper">
-                    <div class="contact-info">
-                        <h2 class="section-heading text-white">Open to Collaboration</h2>
-                        <p class="contact-subtext mb-4">I welcome inquiries from researchers, PhD candidates, and institutions interested in collaborative research in Bioinformatics, Cancer Genomics, or Drug Design.</p>
-                        <div class="contact-details">
-                            <a href="#" id="contact-email-link" class="contact-link">
-                                <i class="fas fa-envelope"></i> <span id="contact-email">Loading...</span>
-                            </a>
-                            <a href="#" id="contact-linkedin-link" class="contact-link" target="_blank">
-                                <i class="fab fa-linkedin"></i> LinkedIn Profile
-                            </a>
-                            <a href="#" id="contact-scholar-link" class="contact-link" target="_blank">
-                                <i class="fas fa-graduation-cap"></i> Google Scholar
-                            </a>
-                            <a href="#" id="contact-orcid-link" class="contact-link" target="_blank">
-                                <i class="fab fa-orcid"></i> ORCID Profile
-                            </a>
-                            <a href="#" id="contact-rg-link" class="contact-link" target="_blank">
-                                <i class="fas fa-flask"></i> ResearchGate
-                            </a>
-                            <a href="#" id="contact-uni-link" class="contact-link" target="_blank">
-                                <i class="fas fa-globe"></i> GITAM University
-                            </a>
-                        </div>
-                        
-                        <div class="mt-4">
-                            <a href="assets/AKC-CV-18FEB2026.pdf" download class="btn btn-outline-white"> <i class="fas fa-download"></i> Download CV </a>
-                        </div>
-                    </div>
-                    </div> <!-- end contact-form-container -->
-                        <form class="contact-form" action="https://formspree.io/f/mlgalakq" method="POST">
 
-    <h3 class="form-title">Send a Message</h3>
+    <div class="contact-info">
+        <h2 class="section-heading text-white">Open to Collaboration</h2>
+        <p class="contact-subtext mb-4">
+            I welcome inquiries from researchers, PhD candidates, and institutions interested in collaborative research.
+        </p>
 
-    <div class="form-group">
-        <label>Your Name</label>
-        <input type="text" name="name" required placeholder="Full Name">
+        <div class="contact-details">
+            <a href="#" class="contact-link">
+                <i class="fas fa-envelope"></i> your@email.com
+            </a>
+        </div>
+
+        <div class="mt-4">
+            <a href="assets/AKC-CV-18FEB2026.pdf" download class="btn btn-outline-white">
+                <i class="fas fa-download"></i> Download CV
+            </a>
+        </div>
     </div>
 
-    <div class="form-group">
-        <label>Email Address</label>
-        <input type="email" name="email" required placeholder="you@institution.edu">
+    <div class="contact-form-container">
+        <form class="contact-form" 
+              action="https://formspree.io/f/mlgalakq" 
+              method="POST">
+
+            <h3 class="form-title">Send a Message</h3>
+
+            <div class="form-group">
+                <input type="text" name="name" required placeholder="Full Name">
+            </div>
+
+            <div class="form-group">
+                <input type="email" name="email" required placeholder="Email Address">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="subject" placeholder="Subject">
+            </div>
+
+            <div class="form-group">
+                <textarea name="message" rows="4" required placeholder="Your Message"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-white w-100">
+                Send Message
+            </button>
+
+        </form>
     </div>
 
-    <div class="form-group">
-        <label>Subject</label>
-        <input type="text" name="subject" placeholder="e.g. Research Collaboration">
-    </div>
-
-    <div class="form-group">
-        <label>Message</label>
-        <textarea name="message" rows="4" required placeholder="Describe your inquiry..."></textarea>
-    </div>
-
-    <button type="submit" class="btn btn-white w-100">
-        Send Message
-    </button>
-
-</form>
+</div>
                             <h3 class="form-title">Send a Message</h3>
                             <div class="form-group">
                                 <label for="name">Your Name</label>
