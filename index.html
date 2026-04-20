@@ -285,41 +285,12 @@
                                 <i class="fas fa-globe"></i> GITAM University
                             </a>
                         </div>
-                        
                         <div class="mt-4">
-                            <a href="assets/AKC-CV-18FEB2026.pdf" download class="btn btn-outline-white"> <i class="fas fa-download"></i> Download CV </a>
+                            <a href="#" class="btn btn-outline-white"><i class="fas fa-download"></i> Download CV</a>
                         </div>
                     </div>
                     <div class="contact-form-container">
-                        <form class="contact-form" action="https://formspree.io/f/mlgalakq" method="POST">
-
-    <h3 class="form-title">Send a Message</h3>
-
-    <div class="form-group">
-        <label>Your Name</label>
-        <input type="text" name="name" required placeholder="Full Name">
-    </div>
-
-    <div class="form-group">
-        <label>Email Address</label>
-        <input type="email" name="email" required placeholder="you@institution.edu">
-    </div>
-
-    <div class="form-group">
-        <label>Subject</label>
-        <input type="text" name="subject" placeholder="e.g. Research Collaboration">
-    </div>
-
-    <div class="form-group">
-        <label>Message</label>
-        <textarea name="message" rows="4" required placeholder="Describe your inquiry..."></textarea>
-    </div>
-
-    <button type="submit" class="btn btn-white w-100">
-        Send Message
-    </button>
-
-</form>
+                        <form class="contact-form" id="contact-form" onsubmit="event.preventDefault(); alert('Thank you for your message. This is a demo — email functionality requires a backend server.');">
                             <h3 class="form-title">Send a Message</h3>
                             <div class="form-group">
                                 <label for="name">Your Name</label>
