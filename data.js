@@ -450,13 +450,13 @@ const portfolioData = {
         }
     ],
     certifications: [
-        { title: "Computer Aided Drug Design", issuer: "IIT Madras | NPTEL" },
-        { title: "Introduction to Proteomics", issuer: "IIT Bombay | NPTEL" },
-        { title: "Interactomics: Basics and Applications", issuer: "IIT Bombay | NPTEL" },
-        { title: "Computational Genomics", issuer: "IISER Bhopal | NPTEL" },
-        { title: "Bioinformatics: Algorithms and Applications", issuer: "IIT Madras | NPTEL" }
-        { title: "Data Analysis For Biologists", issuer: "IIT Guwahati | NPTEL" }
-    ],
+    { title: "Computer Aided Drug Design", issuer: "IIT Madras | NPTEL", year: 2018 },
+    { title: "Introduction to Proteomics", issuer: "IIT Bombay | NPTEL", year: 2019 },
+    { title: "Interactomics: Basics and Applications", issuer: "IIT Bombay | NPTEL", year: 2022 },
+    { title: "Computational Genomics", issuer: "IISER Bhopal | NPTEL", year: 2024 },
+    { title: "Bioinformatics: Algorithms and Applications", issuer: "IIT Madras | NPTEL", year: 2020 },
+    { title: "Data Analysis For Biologists", issuer: "IIT Guwahati | NPTEL", year: 2026 }
+],
     peerReview: [
         { journal: "Journal of Ethnopharmacology", reviews: 6, years: "2023–2025" },
         { journal: "Journal of Applied Biology & Biotechnology", reviews: 10, years: "2023–2024" },
