@@ -450,12 +450,38 @@ const portfolioData = {
         }
     ],
     certifications: [
-        { title: "Bioinformatic Methods I", issuer: "Coursera" },
-        { title: "Bioinformatic Methods II", issuer: "Coursera" },
-        { title: "Teaching Online", issuer: "Coursera" },
-        { title: "Genomic Technologies", issuer: "Coursera" },
-        { title: "Virtual Instruction", issuer: "Coursera" }
-    ],
+    {
+        title: "Computer Aided Drug Design",
+        issuer: "NPTEL (IIT Madras)",
+        year: 2018
+    },
+    {
+        title: "Introduction to Proteomics",
+        issuer: "NPTEL (IIT Bombay)",
+        year: 2019
+    },
+    {
+        title: "Interactomics: Basics and Applications",
+        issuer: "NPTEL (IIT Bombay)",
+        year: 2022
+    },
+    {
+        title: "Computational Genomics",
+        issuer: "NPTEL (IISER Bhopal)",
+        year: 2024
+    },
+    {
+        title: "Bioinformatics: Algorithms and Applications",
+        issuer: "NPTEL (IIT Madras)",
+        year: 2020
+    },
+    {
+        title: "Data Analysis for Biologists",
+        issuer: "NPTEL (IIT Guwahati)",
+        year: 2026
+    }
+]   
+        ],
     peerReview: [
         { journal: "Journal of Ethnopharmacology", reviews: 6, years: "2023–2025" },
         { journal: "Journal of Applied Biology & Biotechnology", reviews: 10, years: "2023–2024" },
