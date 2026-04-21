@@ -480,7 +480,6 @@ const portfolioData = {
         issuer: "NPTEL (IIT Guwahati)",
         year: 2026
     }
-]   
         ],
     peerReview: [
         { journal: "Journal of Ethnopharmacology", reviews: 6, years: "2023–2025" },
